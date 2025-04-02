@@ -16,7 +16,7 @@ st.header("RAG Groq")
 import os
 from dotenv import load_dotenv
 load_dotenv()
-st.secrets['GROQ_API_KEY"]
+st.secrets["GROQ_API_KEY"]
 st.secrets["HUGGING_FACE"]
 
 os.environ['GROQ_API_KEY'] = os.getenv("GROQ_API_KEY")
